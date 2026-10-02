@@ -1,0 +1,65 @@
+{
+  "name": "electoral_democracy_no_vdem",
+  "target": "electoral_democracy",
+  "features": [
+    "year",
+    "union_density",
+    "manufacturing_va_pct_gdp",
+    "industry_va_pct_gdp",
+    "agriculture_va_pct_gdp",
+    "emp_industry_pct",
+    "emp_agriculture_pct",
+    "lfp_rate",
+    "lfp_rate_female",
+    "vulnerable_emp_pct",
+    "unemployment_rate",
+    "labor_force_total",
+    "urban_pop_pct",
+    "trade_pct_gdp",
+    "fdi_inflows_pct_gdp",
+    "manuf_exports_pct",
+    "gdp_pc_const",
+    "gdp_growth",
+    "inflation_cpi",
+    "tax_revenue_pct_gdp",
+    "govt_consumption_pct_gdp",
+    "educ_spend_pct_gdp",
+    "health_spend_pct_gdp",
+    "age_dependency_ratio",
+    "upper_secondary_attain_pct",
+    "tertiary_enroll_gross",
+    "migrant_stock_pct",
+    "gini"
+  ],
+  "params": {
+    "n_estimators": 1000,
+    "max_features": 0.2,
+    "max_samples": 0.7,
+    "min_samples_leaf": 10
+  },
+  "cv_rmse": 0.1665,
+  "cv_rmse_sd": 0.0338,
+  "searched": {
+    "max_features": [
+      "0.2",
+      "0.33",
+      "0.5",
+      "1.0"
+    ],
+    "min_samples_leaf": [
+      "1",
+      "2",
+      "5",
+      "10"
+    ],
+    "max_samples": [
+      "None",
+      "0.7"
+    ]
+  },
+  "n_combinations": 32,
+  "train_rows": 787,
+  "train_countries": 80,
+  "random_state": 42,
+  "created": "2026-10-01"
+}
