@@ -36,16 +36,20 @@
     "cso_entry_exit",
     "egalitarian_component",
     "equal_resource_distribution",
-    "power_by_socioeconomic_position"
+    "power_by_socioeconomic_position",
+    "state_mass_org_engagement",
+    "regime_support_working_class",
+    "govt_ideology_socialist",
+    "ghent"
   ],
   "params": {
     "n_estimators": 1000,
     "max_features": 0.33,
-    "max_samples": 0.7,
-    "min_samples_leaf": 5
+    "max_samples": null,
+    "min_samples_leaf": 1
   },
-  "cv_rmse": 12.6976,
-  "cv_rmse_sd": 3.4417,
+  "cv_rmse": 12.7205,
+  "cv_rmse_sd": 3.5602,
   "searched": {
     "max_features": [
       "0.2",
@@ -68,5 +72,5 @@
   "train_rows": 787,
   "train_countries": 80,
   "random_state": 42,
-  "created": "2026-10-01"
+  "created": "2026-10-03"
 }
